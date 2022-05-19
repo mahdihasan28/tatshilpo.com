@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Aha Shop | 404</title>
+  <title>Aha Shop | Login</title>
 
   <meta charset="utf-8">
   <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
@@ -352,40 +352,64 @@
       </nav> <!-- end navbar -->
     </header> <!-- end navigation -->
 
-    <!-- Breadcrumbs -->
-    <div class="container">
-      <ol class="breadcrumb">
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li>
-          <a href="#">Pages</a>
-        </li>
-        <li class="active">
-          404
-        </li>
-      </ol> <!-- end breadcrumbs -->
-    </div>
-
-
-    <!-- 404 -->
-    <section class="section-wrap page-404">
-      <div class="container">
-
-        <div class="row text-center">
-          <div class="col-md-6 col-md-offset-3">
-            <h1>404</h1>
-            <h2 class="mb-50">Page Not Found</h2>
-            <p class="mb-20">You can go back to <a href="index.html">Homepage</a> or use search</p>
-            <form class="relative">
-              <input type="search" placeholder="Search" class="mb-0">
-              <button type="submit" class="search-button"><i class="fa fa-search"></i></button>
-            </form>
+    <!-- Page Title -->
+    <section class="page-title text-center">
+      <div class="container relative clearfix">
+        <div class="title-holder">
+          <div class="title-text">
+            <h1 class="uppercase">My Account</h1>
           </div>
         </div>
-
       </div>
-    </section> <!-- end 404 -->
+    </section> <!-- end page title -->
+
+    <!-- login -->
+    <section class="section-wrap login-register pt-0 pb-40">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5 col-sm-offset-1 mb-40">
+            <div class="login">
+              <h4 class="uppercase">login</h4>
+              <p class="form-row form-row-wide">
+                <label>username or email
+                  <abbr class="required" title="required">*</abbr>
+                </label>
+                <input type="text" class="input-text" placeholder="" value="">
+              </p>
+              <p class="form-row form-row-wide">
+                <label>password
+                  <abbr class="required" title="required">*</abbr>
+                </label>
+                <input type="text" class="input-text" placeholder="" value="">
+              </p>
+              <input type="submit" value="Login" class="btn">
+              <input type="checkbox" class="input-checkbox" id="remember" name="remember" value="1">
+              <label for="remember" class="checkbox">Remember me</label>
+              <a href="#">Lost Password?</a>
+            </div>
+          </div>
+          <div class="col-sm-5">
+            <div class="register">
+              <h4 class="uppercase">Register</h4>
+              <p class="form-row form-row-wide">
+                <label>email
+                  <abbr class="required" title="required">*</abbr>
+                </label>
+                <input type="text" class="input-text" placeholder="" value="">
+              </p>
+              <p class="form-row form-row-wide">
+                <label>password
+                  <abbr class="required" title="required">*</abbr>
+                </label>
+                <input type="text" class="input-text" placeholder="" value="">
+              </p>
+              <input type="submit" value="Register" class="btn">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> <!-- end login -->
+   
 
     <!-- Footer Type-1 -->
     <footer class="footer footer-type-1 bg-white">
